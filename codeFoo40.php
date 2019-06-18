@@ -9,8 +9,6 @@ use Ds\Stack;
  * Time: 12:22
  */
 
-/** Challenge #40 Implement Queue Using Stacks */
-
 class Queue {
     protected $pushStack = null;
 
@@ -56,3 +54,23 @@ class Queue {
         }
     }
 }
+
+$queue = new Queue();
+$queue->push(1);
+$queue->push(2);
+$queue->push(3);
+$queue->push(4);
+$queue->push(5);
+$queue->push(6);
+
+var_dump($queue->empty());
+
+var_dump($queue->peek());
+var_dump($queue->pop());
+var_dump($queue->pop());
+var_dump($queue->pop());
+var_dump($queue->pop());
+var_dump($queue->pop());
+var_dump($queue->pop());
+
+var_dump($queue->empty());
