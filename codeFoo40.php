@@ -9,6 +9,8 @@ use Ds\Stack;
  * Time: 12:22
  */
 
+/** Challenge #40 Implement Queue Using Stacks */
+
 class Queue {
     protected $pushStack = null;
 
